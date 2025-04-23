@@ -41,14 +41,7 @@ const Home = () => {
   const [municipalityFilter, setMunicipalityFilter] = useState("");
 
   const data = useMemo(() => {
-    let filteredData = initialData.filter((item) =>
-      columns.some((column) =>
-        item[column.key as keyof VaccinationPoint]
-          .toString()
-          .toLowerCase()
-          .includes(search.toLowerCase())
-      )
-    );
+    let filteredData = initialData;
 
     if (departmentFilter) {
       filteredData = filteredData.filter(
@@ -61,6 +54,15 @@ const Home = () => {
         (item) => item.MUNICIPIO === municipalityFilter
       );
     }
+
+    filteredData = filteredData.filter((item) =>
+      columns.some((column) =>
+        item[column.key as keyof VaccinationPoint]
+          .toString()
+          .toLowerCase()
+          .includes(search.toLowerCase())
+      )
+    );
 
     if (sortColumn) {
       filteredData = [...filteredData].sort((a, b) => {
@@ -92,7 +94,7 @@ const Home = () => {
     <div className="container mx-auto p-4">
       <Input
         type="text"
-        placeholder="Búsqueda por municipio..."
+        placeholder="Búsqueda..."
         value={search}
         onChange={(e) => setSearch(e.target.value)}
         className="mb-4 w-full md:w-1/2 custom-input-style"
