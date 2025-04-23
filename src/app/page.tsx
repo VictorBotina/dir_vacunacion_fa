@@ -55,14 +55,16 @@ const Home = () => {
       );
     }
 
-    filteredData = filteredData.filter((item) =>
-      columns.some((column) =>
-        item[column.key as keyof VaccinationPoint]
-          .toString()
-          .toLowerCase()
-          .includes(search.toLowerCase())
-      )
-    );
+    if (search) {
+      filteredData = filteredData.filter((item) =>
+        columns.some((column) =>
+          item[column.key as keyof VaccinationPoint]
+            .toString()
+            .toLowerCase()
+            .includes(search.toLowerCase())
+        )
+      );
+    }
 
     if (sortColumn) {
       filteredData = [...filteredData].sort((a, b) => {
@@ -75,7 +77,19 @@ const Home = () => {
       });
     }
 
-    return filteredData;
+    // Remove duplicate entries based on "NOMBRE PUNTO DE VACUNACION" and TELEFONO
+    const uniqueData = filteredData.reduce((acc: VaccinationPoint[], current) => {
+      const isDuplicate = acc.some(item =>
+        item["NOMBRE PUNTO DE VACUNACION"] === current["NOMBRE PUNTO DE VACUNACION"] &&
+        item.TELEFONO === current.TELEFONO
+      );
+      if (!isDuplicate) {
+        acc.push(current);
+      }
+      return acc;
+    }, []);
+
+    return uniqueData;
   }, [search, sortColumn, sortDirection, departmentFilter, municipalityFilter]);
 
   const uniqueDepartments = [...new Set(initialData.map((item) => item.DEPARTAMENTO))];
