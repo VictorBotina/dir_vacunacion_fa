@@ -1,163 +1,570 @@
-
 [
   {
     "DEPARTAMENTO": "Nariño",
-    "MUNICIPIO": "Pasto",
-    "NOMBRE PUNTO DE VACUNACION": "Hospital San Pedro",
-    "DIRECCIÓN": "Calle 18 # 25-45",
-    "TELEFONO": "7298345",
-    "HORARIO": "Lunes a Viernes de 8am a 5pm"
+    "MUNICIPIO": "Albán ",
+    "NOMBRE PUNTO DE VACUNACION": "E.S.E Centro De Salud Alban",
+    "DIRECCIÓN": "E.S.E Albán",
+    "TELEFONO": "313 5529659",
+    "HORARIO": "Lunes y Martes: 7:00 a.m. a 12:00 m. y 2:00 p.m. a 5:00 p.m.\nMiércoles: 7:00 a.m. a 1:00 p.m.."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Aldana ",
+    "NOMBRE PUNTO DE VACUNACION": "Nuestra Señora Del Pilar",
+    "DIRECCIÓN": "Ese Nuestra Señora Del Pilar",
+    "TELEFONO": "315 7632206",
+    "HORARIO": "Lunes, Martes y Miércoles: 7:00 a.m. a 12:00 m. y 1:20 p.m. a 4:30 p.m.."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Ancuya",
+    "NOMBRE PUNTO DE VACUNACION": "Centro De Salud Ancuya",
+    "DIRECCIÓN": "Centro De Salud Ancuya",
+    "TELEFONO": "3115517958",
+    "HORARIO": "Lunes y Martes de 7:00 a.m. -12:30 p.m. y 2 p.m. -5:30 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Arboleda",
+    "NOMBRE PUNTO DE VACUNACION": "Ese San Miguel",
+    "DIRECCIÓN": "Ese Centro De Salud San Miguel",
+    "TELEFONO": "3202562322",
+    "HORARIO": "Lunes, Martes y Miercoles de 7 a.m.-12 m. y de 1 p.m. -5 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Barbacoas",
+    "NOMBRE PUNTO DE VACUNACION": "Ips Unipa Diviso",
+    "DIRECCIÓN": "Ips Unipa",
+    "TELEFONO": "313 7158834",
+    "HORARIO": "Lunes a Miércoles: 8 a.m. a 5 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Barbacoas ",
+    "NOMBRE PUNTO DE VACUNACION": "Ese Hospital San Antonio ",
+    "DIRECCIÓN": "Ese Hospital San Antonio",
+    "TELEFONO": "3167532480",
+    "HORARIO": "Lunes a Miércoles: 8:00 a.m. a 2:00 p.m.\nJueves y Viernes: 9:00 a.m. a 11:00 a.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Belén",
+    "NOMBRE PUNTO DE VACUNACION": "Centro De Salud Belén Ese",
+    "DIRECCIÓN": "Centro De Salud Belén Ese",
+    "TELEFONO": "323 3219075",
+    "HORARIO": "Lunes y Martes : 8:00 a.m. a 12:00 p.m. y 2:00 p.m. a 4:30 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Buesaco",
+    "NOMBRE PUNTO DE VACUNACION": "Ese Virgen De Lourdes",
+    "DIRECCIÓN": "Ese Virgen De Lourdes",
+    "TELEFONO": "321 8866234",
+    "HORARIO": "Lunes y Martes: 7:00 a.m. a 5:00 p.m.\nMiércoles: 7:00 a.m. a 12:00 m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Cartago ",
+    "NOMBRE PUNTO DE VACUNACION": "Centro De Salud Municipal Cartago ",
+    "DIRECCIÓN": "Centro De Salud Municipal Cartago",
+    "TELEFONO": "3136079198",
+    "HORARIO": "Lunes y Martes: 7:00 a.m. a 12:00 m. y 1:00 p.m. a 5:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Chachagüí",
+    "NOMBRE PUNTO DE VACUNACION": "Centro De Salud Nuestra Señora De Fátima",
+    "DIRECCIÓN": "E.S.E Centro De Salud Nuestra Señora De Fátima y Aeropuerto Antonio Nariño",
+    "TELEFONO": "310 8345443",
+    "HORARIO": "Lunes y Martes: 7:00 a.m. a 12:00 m. y 1:00 p.m. a 4:30 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Charco",
+    "NOMBRE PUNTO DE VACUNACION": "Porvenir",
+    "DIRECCIÓN": "Hospital Sagrado Corazón De Jesús",
+    "TELEFONO": "3226509182",
+    "HORARIO": "Lunes y Martes: 8:00 a.m. a 4:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Colon Génova",
+    "NOMBRE PUNTO DE VACUNACION": "La Buena Esperanza Ese",
+    "DIRECCIÓN": "La Buena Esperanza Ese",
+    "TELEFONO": "310 5368070",
+    "HORARIO": "Lunes a Miércoles: 7:00 a.m. a 12:00 p.m. y 2:00 p.m. a 5:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Consacá ",
+    "NOMBRE PUNTO DE VACUNACION": "Centro De Salud Consacá E.S.E",
+    "DIRECCIÓN": "Centro De Salud Consacá E.S. E",
+    "TELEFONO": "318 6733110",
+    "HORARIO": "Lunes y Martes: 7:30 a.m. a 12:30 p.m. y 1:30 p.m. a 5:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Contadero ",
+    "NOMBRE PUNTO DE VACUNACION": "Parque Municipal ",
+    "DIRECCIÓN": "Centro De Salud Sagrado Corazón De Jesús",
+    "TELEFONO": "320 7670077",
+    "HORARIO": "Lunes a Miércoles: 8:00 a.m. a 4:30 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Córdoba ",
+    "NOMBRE PUNTO DE VACUNACION": "Centro De Salud San Bartolomé De Córdoba ",
+    "DIRECCIÓN": "Centro De Salud San Bartolomé De Córdoba",
+    "TELEFONO": "317 3048948",
+    "HORARIO": "Lunes a Miércoles: 7:30 a.m. a 12:00 p.m. y 1:30 p.m. a 5:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Cuaspud ",
+    "NOMBRE PUNTO DE VACUNACION": "En Semana Santa También Se Vacuna",
+    "DIRECCIÓN": "Ese Cuaspud -Carlosama",
+    "TELEFONO": "310 2455643",
+    "HORARIO": "Lunes a Miércoles: 8:00 a.m. a 12:00 p.m. y 1:00 p.m. a 5:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Cumbal ",
+    "NOMBRE PUNTO DE VACUNACION": "Ese Hospital Cumbal",
+    "DIRECCIÓN": "Ese Hospital Cumbal",
+    "TELEFONO": "314 7891768",
+    "HORARIO": "Lunes a Miércoles: 8:00 a.m. a 12:00 m. y 1:30 p.m. a 5:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Cumbitara",
+    "NOMBRE PUNTO DE VACUNACION": "E.S.E San Pedro",
+    "DIRECCIÓN": "Colombia",
+    "TELEFONO": "3105499841",
+    "HORARIO": "Lunes a Miércoles: 7:30 a.m. a 6:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "El Tablón De Gómez",
+    "NOMBRE PUNTO DE VACUNACION": "Tablón Y Las Mesas  ",
+    "DIRECCIÓN": "Centro De Salud Tablón De Gómez",
+    "TELEFONO": "33127757426",
+    "HORARIO": "Lunes a Miércoles: 7:00 a.m. a 12:00 p.m. y 2:00 p.m. a 5:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "El Peñol",
+    "NOMBRE PUNTO DE VACUNACION": "Cubierta Urgencias Ese San Isidro",
+    "DIRECCIÓN": "Ese Centro De Salud San Isidro",
+    "TELEFONO": "3117400330",
+    "HORARIO": "Lunes a Miércoles: 7:00 a.m. a 12:00 p.m. y 2:00 p.m. a 5:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "El Rosario",
+    "NOMBRE PUNTO DE VACUNACION": "E.S.E. El Rosario- C/ De El Rincón",
+    "DIRECCIÓN": "E.S.E. Centro De Salud El Rosario",
+    "TELEFONO": "3103971023",
+    "HORARIO": "Lunes a Miércoles: 7:30 a.m. a 12:30 p.m. y 2:00 p.m. a 5:30 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "El Tambo",
+    "NOMBRE PUNTO DE VACUNACION": "Centro Hospital San Luis",
+    "DIRECCIÓN": "Centro Hospital San Luis",
+    "TELEFONO": "3217978125",
+    "HORARIO": "Martes: 7:00 a.m. a 12:30 p.m. y 2:00 p.m. a 5:00 p.m.\nMiércoles: 7:00 a.m. a 12:30 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Francisco Pizarro ",
+    "NOMBRE PUNTO DE VACUNACION": "Centro De Salud Señor Del Mar",
+    "DIRECCIÓN": "Ese Centro De Salud Señor Del Mar",
+    "TELEFONO": "315 3511820",
+    "HORARIO": "Lunes a Miércoles: 8:00 a.m. a 12:00 p.m. y 2:00 p.m. a 6:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Funes",
+    "NOMBRE PUNTO DE VACUNACION": "Parque Principal",
+    "DIRECCIÓN": "Centro De Salud Funes E.S.E",
+    "TELEFONO": "311 8077712",
+    "HORARIO": "Lunes a Miércoles, Jueves y Viernes: Disponible al llamado. 7:30 a.m. a 12:30 p.m. y 2:00 p.m. a 5:30 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Guachucal",
+    "NOMBRE PUNTO DE VACUNACION": "Hospital Guachucal",
+    "DIRECCIÓN": "Hospital Guachucal Ese",
+    "TELEFONO": "3225890239",
+    "HORARIO": "Lunes a Miércoles: 8:00 a.m. a 5:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Guaitarilla",
+    "NOMBRE PUNTO DE VACUNACION": "Ese Guaitarilla",
+    "DIRECCIÓN": "Centro Hospital Guaitarilla Ese",
+    "TELEFONO": "3153281499",
+    "HORARIO": "Lunes a Miércoles: 7:00 a.m. a 12:30 p.m. y 2:00 p.m. a 5:30 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Gualmatán ",
+    "NOMBRE PUNTO DE VACUNACION": "Ese Gualmatán ",
+    "DIRECCIÓN": "Centro De Salud Señor De Los Milagros",
+    "TELEFONO": "3172429344",
+    "HORARIO": "Lunes a Miércoles: 8:00 a.m. a 12:00 p.m. y 1:00 p.m. a 6:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Iles",
+    "NOMBRE PUNTO DE VACUNACION": "Punto Loma Alta Y Porvenir ",
+    "DIRECCIÓN": "Centro De Salud Iles",
+    "TELEFONO": "316 4362723",
+    "HORARIO": "Lunes y Miércoles: 8:00 a.m. a 4:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Imués",
+    "NOMBRE PUNTO DE VACUNACION": "E.S.E. Santiago Apóstol Imués",
+    "DIRECCIÓN": "E.S.E. Santiago Apóstol",
+    "TELEFONO": "320 7424781",
+    "HORARIO": "Lunes a Miércoles: 8:00 a.m. a 5:00 p.m."
   },
   {
     "DEPARTAMENTO": "Nariño",
     "MUNICIPIO": "Ipiales",
-    "NOMBRE PUNTO DE VACUNACION": "Centro de Salud Ipiales",
-    "DIRECCIÓN": "Carrera 6 # 12-34",
-    "TELEFONO": "7265432",
-    "HORARIO": "Lunes a Sábado de 7am a 6pm"
+    "NOMBRE PUNTO DE VACUNACION": "Puesto De Salud Las Lajas",
+    "DIRECCIÓN": "Ips Municipal De Ipiales Ese",
+    "TELEFONO": "315 6170309- 317 3577971",
+    "HORARIO": "13 al 20 de abril de 2025: 8:00 a.m. a 12:00 m. y 2:00 p.m. a 6:00 p.m."
   },
   {
     "DEPARTAMENTO": "Nariño",
-    "MUNICIPIO": "Tumaco",
-    "NOMBRE PUNTO DE VACUNACION": "Hospital Divino Niño",
-    "DIRECCIÓN": "Avenida Colon # 3-15",
-    "TELEFONO": "7287654",
-    "HORARIO": "Lunes a Domingo de 6am a 8pm"
+    "MUNICIPIO": "Ipiales",
+    "NOMBRE PUNTO DE VACUNACION": "Puesto De Vacunación Terminal Terrestre De Pasajeros Ipiales",
+    "DIRECCIÓN": "Ips Municipal De Ipiales Ese",
+    "TELEFONO": "315 6170309- 317 3577971",
+    "HORARIO": "13 al 20 de abril de 2025: 8:00 a.m. a 12:00 m. y 2:00 p.m. a 6:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Ipiales",
+    "NOMBRE PUNTO DE VACUNACION": "Puesto De Vacunación Puente Internacional De Rumichaca",
+    "DIRECCIÓN": "Ips Municipal De Ipiales Ese",
+    "TELEFONO": "315 6170309- 317 3577971",
+    "HORARIO": "14 al 20 de abril de 2025: 8:00 a.m. a 12:00 m. y 2:00 p.m. a 6:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Ipiales",
+    "NOMBRE PUNTO DE VACUNACION": "Puesto De Vacunación Puesto De Salud Sucumbíos",
+    "DIRECCIÓN": "Ips Municipal De Ipiales Ese",
+    "TELEFONO": "315 6170309- 317 3577971",
+    "HORARIO": "12 al 20 de abril de 2025: 8:00 a.m. a 12:00 m. y 2:00 p.m. a 6:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Ipiales",
+    "NOMBRE PUNTO DE VACUNACION": "Puesto De Vacunación El Empalme Sucumbíos",
+    "DIRECCIÓN": "Ips Municipal De Ipiales Ese",
+    "TELEFONO": "315 6170309- 317 3577971",
+    "HORARIO": "13 al 20 de abril de 2025: 8:00 a.m. a 12:00 m. y 2:00 p.m. a 6:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "La Cruz",
+    "NOMBRE PUNTO DE VACUNACION": "Hospital El Buen Samaritano ",
+    "DIRECCIÓN": "Hospital El Buen Samaritano",
+    "TELEFONO": "317 2110053",
+    "HORARIO": "Lunes a Miércoles: 7:00 a.m. a 5:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "La Florida",
+    "NOMBRE PUNTO DE VACUNACION": "Centro Hospital La Florida Ese",
+    "DIRECCIÓN": "Centro Hospital La Florida E.S.E",
+    "TELEFONO": "3186389861",
+    "HORARIO": "Martes y Miércoles: 7:30 a.m. a 5:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "La Llanada",
+    "NOMBRE PUNTO DE VACUNACION": "Ese San Juan Bosco ",
+    "DIRECCIÓN": "Ese San Juan Bosco",
+    "TELEFONO": "3116050060",
+    "HORARIO": "Lunes, Martes y Miércoles: 7:30 a.m. a 12:00 m. y 1:30 p.m. a 6:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "La Tola",
+    "NOMBRE PUNTO DE VACUNACION": "Ese Centro De Salud Nuestra Señora Del Carmen ",
+    "DIRECCIÓN": "Ese Centro De Salud Nuestra Señora Del Carmen",
+    "TELEFONO": "3157838996",
+    "HORARIO": "Lunes, Martes y Miércoles: 7:00 a.m. a 12:00 p.m. y 2:00 p.m. a 5:30 p.m."
   },
   {
     "DEPARTAMENTO": "Nariño",
     "MUNICIPIO": "La Unión",
-    "NOMBRE PUNTO DE VACUNACION": "Puesto de Salud La Unión",
-    "DIRECCIÓN": "Calle Central # 5-20",
-    "TELEFONO": "7243219",
-    "HORARIO": "Lunes a Viernes de 8am a 4pm"
+    "NOMBRE PUNTO DE VACUNACION": "Ese Luis Acosta",
+    "DIRECCIÓN": "Ese Luis Acosta",
+    "TELEFONO": "3114104836",
+    "HORARIO": "Lunes, Martes y Miércoles: 7:00 a.m. a 12:00 p.m. y 1:00 p.m. a 4:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Leiva",
+    "NOMBRE PUNTO DE VACUNACION": "Ese Leiva",
+    "DIRECCIÓN": "Centro De Salud San José De Leiva",
+    "TELEFONO": "3217544185",
+    "HORARIO": "Lunes, Martes y Sábado: 8:00 a.m. a 1:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Linares",
+    "NOMBRE PUNTO DE VACUNACION": "E.S.E Juan Pablo II",
+    "DIRECCIÓN": "E.S.E Juan Pablo II",
+    "TELEFONO": "3157204274",
+    "HORARIO": "Lunes, Martes y Miércoles: 8:00 a.m. a 3:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Los Andes",
+    "NOMBRE PUNTO DE VACUNACION": "Ese Centro De Salud Los Andes",
+    "DIRECCIÓN": "Ese Centro De Salud Los Andes",
+    "TELEFONO": "3166984559",
+    "HORARIO": "Lunes y Martes: 7:00 a.m. a 12:00 p.m. y 2:00 p.m. a 5:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Magüí Payan",
+    "NOMBRE PUNTO DE VACUNACION": "Intramural",
+    "DIRECCIÓN": "E.S.E Centro De Salud Saul Quiñones",
+    "TELEFONO": "3105912983",
+    "HORARIO": "Lunes, Martes y Miércoles: 8:00 a.m. a 12:00 p.m. y 2:00 p.m. a 6:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Mallama",
+    "NOMBRE PUNTO DE VACUNACION": "Móvil E Intramural",
+    "DIRECCIÓN": "Centro De Salud Santiago De Mallama",
+    "TELEFONO": "3104399283",
+    "HORARIO": "Lunes, Martes y Miércoles: 8:00 a.m. a 4:30 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Mosquera",
+    "NOMBRE PUNTO DE VACUNACION": "Frente A La Alcaldía Municipal",
+    "DIRECCIÓN": "Ese Centro De Salud San Francisco",
+    "TELEFONO": "3218480547",
+    "HORARIO": "Lunes y Martes: 8:00 a.m. a 4:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Nariño",
+    "NOMBRE PUNTO DE VACUNACION": "Centro De San Sebastián E.S.E",
+    "DIRECCIÓN": "Ese San Sebastián",
+    "TELEFONO": "302 4369925",
+    "HORARIO": "Lunes, Martes y Miércoles: 8:00 a.m. a 12:00 p.m. y 1:00 p.m. a 5:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Olaya Herrera",
+    "NOMBRE PUNTO DE VACUNACION": "Intramural Centro De Salud Camilo Hurtado Y Extramural Casa Casa",
+    "DIRECCIÓN": "Ese Camilo Hurtado Cifuentes",
+    "TELEFONO": "3174591450",
+    "HORARIO": "Lunes, Martes y Miércoles: 7:00 a.m. a 12:00 p.m. y 2:00 p.m. a 6:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Ospina ",
+    "NOMBRE PUNTO DE VACUNACION": "Ese San Miguel Arcángel ",
+    "DIRECCIÓN": "Ese San Miguel Arcángel",
+    "TELEFONO": "3147923445",
+    "HORARIO": "Lunes, Martes y Miércoles: 7:30 a.m. a 5:30 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Pasto",
+    "NOMBRE PUNTO DE VACUNACION": "Terminal Mixto Potrerillo ",
+    "DIRECCIÓN": "Pasto Salud Ese",
+    "TELEFONO": "3175896932 - 31555133334",
+    "HORARIO": "Lunes, Martes y Sábado: 8:00 a.m. a 3:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Pasto",
+    "NOMBRE PUNTO DE VACUNACION": "Terminal Principal ",
+    "DIRECCIÓN": "Pasto Salud",
+    "TELEFONO": "3175896932 - 31555133334",
+    "HORARIO": "Lunes, Martes y Sábado: 8:00 a.m. a 3:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Pasto ",
+    "NOMBRE PUNTO DE VACUNACION": "Terminal Principal ",
+    "DIRECCIÓN": "Cardio Quirúrgica",
+    "TELEFONO": "3175896932 - 31555133334",
+    "HORARIO": "Miércoles: 8:00 a.m. a 1:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Policarpa",
+    "NOMBRE PUNTO DE VACUNACION": "Centro De Salud Policarpa",
+    "DIRECCIÓN": "Centro De Salud Policarpa",
+    "TELEFONO": "3165152152",
+    "HORARIO": "Martes y Miércoles:  8:00 a.m. a 12:00 p.m. y de 2:00 p.m. a 6:00 p.m.\nJueves, Viernes, Sábado y Domingo: Disponibilidad o llamado."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Potosí",
+    "NOMBRE PUNTO DE VACUNACION": "Ese Centro Hospital Luis Antonio Montero",
+    "DIRECCIÓN": "Ese Centro Hospital Luis Antonio Montero",
+    "TELEFONO": "323 5264614- 315 2317472",
+    "HORARIO": "Lunes y Martes: 7:30 a.m. a 12:30 m. y 2:00 p.m. a 5:00 p.m.  \nMiércoles: 7:30 a.m. a 2:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Providencia ",
+    "NOMBRE PUNTO DE VACUNACION": "Centro De Salud Providencia E. S. E",
+    "DIRECCIÓN": "Centro De Salud Providencia E. S. E",
+    "TELEFONO": "3117558789",
+    "HORARIO": "Lunes y Martes: 8:00 a.m. a 12:00 p.m. y 2:00 p.m. a 6:00 p.m.\nMiércoles: 7:00 a.m. a 3:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Puerres",
+    "NOMBRE PUNTO DE VACUNACION": "Vacunación ",
+    "DIRECCIÓN": "Centro de Salud",
+    "TELEFONO": "314 8615428",
+    "HORARIO": "Lunes y Martes: 7:30 a.m. a 6:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Pupiales",
+    "NOMBRE PUNTO DE VACUNACION": "Parque Central",
+    "DIRECCIÓN": "Ese Centro De Salud San Juan Bautista",
+    "TELEFONO": "318 3396701",
+    "HORARIO": "Lunes, Martes y Miércoles (jornada continua): 8:00 a.m. a 4:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Ricaurte",
+    "NOMBRE PUNTO DE VACUNACION": "Institucional, Extramural Ospina, Alcaldía Y Casco Urbano Por Concentración ",
+    "DIRECCIÓN": "Hospital Ricaurte Ese",
+    "TELEFONO": "3207131442",
+    "HORARIO": "Lunes y Martes: 7:00 a.m. a 12:00 p.m. y 2:00 p.m. a 6:00 p.m. Miércoles: jornada continua, 7:00 a.m. a 1:00 p.m."
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Roberto Payan",
+    "NOMBRE PUNTO DE VACUNACION": "Parque Principal Ignacio Gómez",
+    "DIRECCIÓN": "Ese Las Mercedes",
+    "TELEFONO": "3128613767",
+    "HORARIO": "Lunes: 8:00 a.m. a 2:00 p.m."
   },
   {
     "DEPARTAMENTO": "Nariño",
     "MUNICIPIO": "Samaniego",
-    "NOMBRE PUNTO DE VACUNACION": "Hospital Civil Samaniego",
-    "DIRECCIÓN": "Carrera 3 # 8-10",
-    "TELEFONO": "7254321",
-    "HORARIO": "Lunes a Sábado de 7am a 7pm"
+    "NOMBRE PUNTO DE VACUNACION": "Ese Hospital Lorencita Villegas De Santos",
+    "DIRECCIÓN": "Hospital Lorencita Villegas De Santos Ese",
+    "TELEFONO": "3138625257",
+    "HORARIO": "Lunes, Martes y Miércoles : 8:00 a.m. a 12:00 p.m. y 2:00 p.m. a 5:00 p.m.\nSábado y Domingo : 7:00 a.m. a 1:00 p.m."
   },
   {
-    "DEPARTAMENTO": "Cauca",
-    "MUNICIPIO": "Popayán",
-    "NOMBRE PUNTO DE VACUNACION": "Hospital Universitario San José",
-    "DIRECCIÓN": "Calle 4 # 10-50",
-    "TELEFONO": "8245678",
-    "HORARIO": "Lunes a Viernes de 7am a 5pm"
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "San Bernardo",
+    "NOMBRE PUNTO DE VACUNACION": "Parque Principal",
+    "DIRECCIÓN": "Ese San Bernardo",
+    "TELEFONO": "3103845348",
+    "HORARIO": "Lunes y Martes: 7:00 a.m. a 12:00 p.m. y 1:00 p.m. a 4:00 p.m."
   },
   {
-    "DEPARTAMENTO": "Cauca",
-    "MUNICIPIO": "Santander de Quilichao",
-    "NOMBRE PUNTO DE VACUNACION": "Centro de Salud Santander",
-    "DIRECCIÓN": "Carrera 15 # 20-30",
-    "TELEFONO": "8287654",
-    "HORARIO": "Lunes a Sábado de 6am a 6pm"
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "San Lorenzo ",
+    "NOMBRE PUNTO DE VACUNACION": "Coliseo Municipal ",
+    "DIRECCIÓN": "Centro De Salud San Lorenzo Ese",
+    "TELEFONO": "3116332033",
+    "HORARIO": "Martes a Viernes: 7:00 a.m. a 12:00 p.m. y 2:00 p.m. a 6:00 p.m.\nSábado: 7:00 a.m. a 1:00 p.m.\nDisponible las 24 horas para RN."
   },
   {
-    "DEPARTAMENTO": "Cauca",
-    "MUNICIPIO": "Puerto Tejada",
-    "NOMBRE PUNTO DE VACUNACION": "Hospital de Puerto Tejada",
-    "DIRECCIÓN": "Avenida Principal # 1-20",
-    "TELEFONO": "8298765",
-    "HORARIO": "Lunes a Domingo de 8am a 8pm"
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "San Pablo",
+    "NOMBRE PUNTO DE VACUNACION": "Manuel Briceño Y Ese San Carlos",
+    "DIRECCIÓN": "Hospital San Carlos Ese",
+    "TELEFONO": "301 3180509",
+    "HORARIO": "Martes y Miércoles: 7:00 a.m. a 12:00 p.m. y 1:30 p.m. a 5:00 p.m."
   },
   {
-    "DEPARTAMENTO": "Cauca",
-    "MUNICIPIO": "Corinto",
-    "NOMBRE PUNTO DE VACUNACION": "Puesto de Salud Corinto",
-    "DIRECCIÓN": "Calle del Comercio # 2-15",
-    "TELEFONO": "8234567",
-    "HORARIO": "Lunes a Viernes de 9am a 4pm"
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Sandoná",
+    "NOMBRE PUNTO DE VACUNACION": "Hospital Clarita Santos Ese",
+    "DIRECCIÓN": "Hospital Clarita Santos Ese",
+    "TELEFONO": "3147744418",
+    "HORARIO": "Martes: 7:00 a.m. a 12:00 p.m. y 2:00 p.m. a 6:00 p.m.\nMiércoles: 7:00 a.m. a 12:00 p.m."
   },
   {
-    "DEPARTAMENTO": "Cauca",
-    "MUNICIPIO": "Silvia",
-    "NOMBRE PUNTO DE VACUNACION": "Hospital Indígena Silvia",
-    "DIRECCIÓN": "Carrera 5 # 5-55",
-    "TELEFONO": "8265432",
-    "HORARIO": "Lunes a Sábado de 7am a 5pm"
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Santa Barbara De Iscuande",
+    "NOMBRE PUNTO DE VACUNACION": "Centro De Salud Santa Barbara De Iscuande",
+    "DIRECCIÓN": "Centro De Salud Santa Barbara De Iscuande",
+    "TELEFONO": "3146698692",
+    "HORARIO": "Lunes, Martes y Miércoles: 7:00 a.m. a 12:00 p.m. y 2:00 p.m. a 5:00 p.m."
   },
   {
-    "DEPARTAMENTO": "Putumayo",
-    "MUNICIPIO": "Mocoa",
-    "NOMBRE PUNTO DE VACUNACION": "Hospital José María Hernández",
-    "DIRECCIÓN": "Calle 12 # 8-25",
-    "TELEFONO": "6456789",
-    "HORARIO": "Lunes a Viernes de 8am a 6pm"
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Santacruz ",
+    "NOMBRE PUNTO DE VACUNACION": "Centro De Salud Guachavez Ese",
+    "DIRECCIÓN": "Centro De Salud Guachavez Ese",
+    "TELEFONO": "3014487169",
+    "HORARIO": "Lunes, Martes y Miércoles: 8:00 a.m. a 5:00 p.m."
   },
   {
-    "DEPARTAMENTO": "Putumayo",
-    "MUNICIPIO": "Puerto Asís",
-    "NOMBRE PUNTO DE VACUNACION": "Centro de Salud Puerto Asís",
-    "DIRECCIÓN": "Carrera 9 # 15-10",
-    "TELEFONO": "6487654",
-    "HORARIO": "Lunes a Sábado de 7am a 7pm"
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Sapuyes",
+    "NOMBRE PUNTO DE VACUNACION": "Ese Sapuyes",
+    "DIRECCIÓN": "Centro Salud Sapuyes",
+    "TELEFONO": "3174647382",
+    "HORARIO": "Lunes a Miércoles: 8:00 a.m. a 12:00 p.m. y 1:00 p.m. a 5:00 p.m.\nResto de días: disponibilidad bajo llamado."
   },
   {
-    "DEPARTAMENTO": "Putumayo",
-    "MUNICIPIO": "Orito",
-    "NOMBRE PUNTO DE VACUNACION": "Hospital de Orito",
-    "DIRECCIÓN": "Avenida Libertador # 2-80",
-    "TELEFONO": "6498765",
-    "HORARIO": "Lunes a Domingo de 6am a 9pm"
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Taminango",
+    "NOMBRE PUNTO DE VACUNACION": "Centro Hospital San Juan Bautista-Zona Panamericana",
+    "DIRECCIÓN": "Centro Hospital San Juan Bautista Ese",
+    "TELEFONO": "3116164406",
+    "HORARIO": "Martes y Miércoles: 7:30 a.m. a 12:00 p.m. y 2:00 p.m. a 6:00 p.m."
   },
   {
-    "DEPARTAMENTO": "Putumayo",
-    "MUNICIPIO": "Villa Garzón",
-    "NOMBRE PUNTO DE VACUNACION": "Puesto de Salud Villa Garzón",
-    "DIRECCIÓN": "Calle 3 # 4-40",
-    "TELEFONO": "6434567",
-    "HORARIO": "Lunes a Viernes de 9am a 5pm"
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Tangua",
+    "NOMBRE PUNTO DE VACUNACION": "Centro De Salud Hermes Andrade Mejía Ese Tangua",
+    "DIRECCIÓN": "Centro De Salud Hermes Andrade Mejía Ese Tangua",
+    "TELEFONO": "3158046540",
+    "HORARIO": "Lunes y Martes: 8:00 a.m. a 12:00 p.m. y 1:00 p.m. a 5:40 p.m."
   },
   {
-    "DEPARTAMENTO": "Putumayo",
-    "MUNICIPIO": "Sibundoy",
-    "NOMBRE PUNTO DE VACUNACION": "Hospital Regional Sibundoy",
-    "DIRECCIÓN": "Carrera 7 # 6-12",
-    "TELEFONO": "6465432",
-    "HORARIO": "Lunes a Sábado de 8am a 6pm"
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Tumaco",
+    "NOMBRE PUNTO DE VACUNACION": "Ips Unipa Llorente",
+    "DIRECCIÓN": "Ips Unipa Llorente",
+    "TELEFONO": "317 5694843",
+    "HORARIO": "Lunes, Martes y Miércoles: 8:00 a.m. a 5:00 p.m."
   },
   {
-    "DEPARTAMENTO": "Valle del Cauca",
-    "MUNICIPIO": "Cali",
-    "NOMBRE PUNTO DE VACUNACION": "Hospital Universitario del Valle",
-    "DIRECCIÓN": "Calle 5 # 36-08",
-    "TELEFONO": "5543210",
-    "HORARIO": "Lunes a Viernes de 7am a 6pm"
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Tuquerres ",
+    "NOMBRE PUNTO DE VACUNACION": "Ips Indígena Julián Carlosama ",
+    "DIRECCIÓN": "Ips Indígena Julián Carlosama",
+    "TELEFONO": "3225112697",
+    "HORARIO": "Lunes, Martes y Miércoles: 7:30 a.m. a 11:30 a.m. y 1:30 p.m. a 5:30 p.m."
   },
   {
-    "DEPARTAMENTO": "Valle del Cauca",
-    "MUNICIPIO": "Palmira",
-    "NOMBRE PUNTO DE VACUNACION": "Clínica Palma Real",
-    "DIRECCIÓN": "Carrera 31 # 42-21",
-    "TELEFONO": "5576543",
-    "HORARIO": "Lunes a Sábado de 6am a 8pm"
-  },
-  {
-    "DEPARTAMENTO": "Valle del Cauca",
-    "MUNICIPIO": "Buga",
-    "NOMBRE PUNTO DE VACUNACION": "Hospital San José Buga",
-    "DIRECCIÓN": "Calle 7 # 14-30",
-    "TELEFONO": "5587654",
-    "HORARIO": "Lunes a Domingo de 8am a 7pm"
-  },
-  {
-    "DEPARTAMENTO": "Valle del Cauca",
-    "MUNICIPIO": "Tuluá",
-    "NOMBRE PUNTO DE VACUNACION": "Clínica María Ángel",
-    "DIRECCIÓN": "Carrera 25 # 28-05",
-    "TELEFONO": "5598765",
-    "HORARIO": "Lunes a Viernes de 9am a 5pm"
-  },
-  {
-    "DEPARTAMENTO": "Valle del Cauca",
-    "MUNICIPIO": "Cartago",
-    "NOMBRE PUNTO DE VACUNACION": "Hospital San Juan de Dios",
-    "DIRECCIÓN": "Calle 13 # 5-48",
-    "TELEFONO": "5534567",
-    "HORARIO": "Lunes a Sábado de 7am a 6pm"
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Yacuanquer ",
+    "NOMBRE PUNTO DE VACUNACION": "Centro De Salud Saludya Ese",
+    "DIRECCIÓN": "Ese Saludya",
+    "TELEFONO": "3194391471",
+    "HORARIO": "Lunes a Miércoles: 8:00 a.m. a 12:00 p.m. y 1:30 p.m. a 5:30 p.m.\nSábado y Domingo: disponibilidad."
   }
 ]

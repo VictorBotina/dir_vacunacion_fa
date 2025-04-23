@@ -25,12 +25,12 @@ interface VaccinationPoint {
 const initialData: VaccinationPoint[] = data;
 
 const columns = [
-  { key: "DEPARTAMENTO", label: "DEPARTAMENTO" },
-  { key: "MUNICIPIO", label: "MUNICIPIO" },
-  { key: "NOMBRE PUNTO DE VACUNACION", label: "NOMBRE PUNTO DE VACUNACION" },
-  { key: "DIRECCIÓN", label: "DIRECCIÓN" },
-  { key: "TELEFONO", label: "TELEFONO" },
-  { key: "HORARIO", label: "HORARIO" },
+  { key: "DEPARTAMENTO", label: "Departamento" },
+  { key: "MUNICIPIO", label: "Municipio" },
+  { key: "NOMBRE PUNTO DE VACUNACION", label: "Punto de Vacunación" },
+  { key: "DIRECCIÓN", label: "Dirección" },
+  { key: "TELEFONO", label: "Telefono" },
+  { key: "HORARIO", label: "Horario" },
 ];
 
 const Home = () => {
@@ -92,7 +92,7 @@ const Home = () => {
     <div className="container mx-auto p-4">
       <Input
         type="text"
-        placeholder="Search vaccination points..."
+        placeholder="Búsqueda por municipio..."
         value={search}
         onChange={(e) => setSearch(e.target.value)}
         className="mb-4 w-full md:w-1/2 custom-input-style"
@@ -101,7 +101,7 @@ const Home = () => {
       <div className="flex flex-wrap gap-4 mb-4">
         <Select onValueChange={setDepartmentFilter}>
           <SelectTrigger className="w-[180px] custom-select-style">
-            <SelectValue placeholder="Filter by Department" />
+            <SelectValue placeholder="Departamento" />
           </SelectTrigger>
           <SelectContent className="bg-[var(--dropdown-background)]">
             {uniqueDepartments.map((department) => (
@@ -114,7 +114,7 @@ const Home = () => {
 
         <Select onValueChange={setMunicipalityFilter}>
           <SelectTrigger className="w-[180px] custom-select-style">
-            <SelectValue placeholder="Filter by Municipality" />
+            <SelectValue placeholder="Municipio" />
           </SelectTrigger>
           <SelectContent className="bg-[var(--dropdown-background)]">
             {uniqueMunicipalities.map((municipality) => (
