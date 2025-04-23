@@ -73,17 +73,8 @@ const Home = () => {
       });
     }
 
-    return filteredData.slice(0, 5);
+    return filteredData;
   }, [search, sortColumn, sortDirection, departmentFilter, municipalityFilter]);
-
-  const handleSort = (column: string) => {
-    if (sortColumn === column) {
-      setSortDirection(sortDirection === "asc" ? "desc" : "asc");
-    } else {
-      setSortColumn(column);
-      setSortDirection("asc");
-    }
-  };
 
   const uniqueDepartments = [...new Set(initialData.map((item) => item.DEPARTAMENTO))];
   const uniqueMunicipalities = [...new Set(initialData.map((item) => item.MUNICIPIO))];
@@ -141,8 +132,8 @@ const Home = () => {
           </TableRow>
         </TableHeader>
         <TableBody>
-          {data.map((item) => (
-            <TableRow key={item["NOMBRE PUNTO DE VACUNACION"]}>
+          {data.slice(0,5).map((item) => (
+            <TableRow key={`${item["NOMBRE PUNTO DE VACUNACION"]}-${item.TELEFONO}`}>
               <TableCell>{item.DEPARTAMENTO}</TableCell>
               <TableCell>{item.MUNICIPIO}</TableCell>
               <TableCell>{item["NOMBRE PUNTO DE VACUNACION"]}</TableCell>
@@ -158,3 +149,4 @@ const Home = () => {
 };
 
 export default Home;
+
