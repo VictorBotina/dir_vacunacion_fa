@@ -103,7 +103,7 @@ const Home = () => {
           <SelectTrigger className="w-[180px]">
             <SelectValue placeholder="Filter by Department" />
           </SelectTrigger>
-          <SelectContent>
+          <SelectContent className="bg-[var(--dropdown-background)]">
             {uniqueDepartments.map((department) => (
               <SelectItem key={department} value={department}>
                 {department}
@@ -116,7 +116,7 @@ const Home = () => {
           <SelectTrigger className="w-[180px]">
             <SelectValue placeholder="Filter by Municipality" />
           </SelectTrigger>
-          <SelectContent>
+          <SelectContent className="bg-[var(--dropdown-background)]">
             {uniqueMunicipalities.map((municipality) => (
               <SelectItem key={municipality} value={municipality}>
                 {municipality}
@@ -133,7 +133,7 @@ const Home = () => {
               <TableHead
                 key={column.key}
                 onClick={() => handleSort(column.key)}
-                className="cursor-pointer"
+                className="cursor-pointer table-header-solid"
               >
                 {column.label}
               </TableHead>
