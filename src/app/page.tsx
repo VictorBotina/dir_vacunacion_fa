@@ -19,6 +19,7 @@ interface VaccinationPoint {
   DIRECCIÓN: string;
   TELEFONO: string;
   HORARIO: string;
+  id_municipio: string;
 }
 
 const initialData: VaccinationPoint[] = data;
@@ -72,7 +73,8 @@ const Home = () => {
         item.DEPARTAMENTO === current.DEPARTAMENTO &&
         item.MUNICIPIO === current.MUNICIPIO &&
         item.DIRECCIÓN === current.DIRECCIÓN &&
-        item.HORARIO === current.HORARIO
+        item.HORARIO === current.HORARIO &&
+        item.id_municipio === current.id_municipio
       );
       if (!isDuplicate) {
         acc.push(current);
@@ -80,7 +82,7 @@ const Home = () => {
       return acc;
     }, []);
 
-    return uniqueData;
+    return uniqueData.slice(0, 5);
   }, [sortColumn, sortDirection, departmentFilter, municipalityFilter]);
 
   const uniqueDepartments = useMemo(() => {
