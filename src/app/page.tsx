@@ -9,7 +9,6 @@ import {
   TableHead,
   TableCell,
 } from "@/components/ui/table";
-import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import data from './data.json';
 
@@ -34,11 +33,10 @@ const columns = [
 ];
 
 const Home = () => {
-  const [search, setSearch] = useState("");
   const [sortColumn, setSortColumn] = useState<string | null>(null);
   const [sortDirection, setSortDirection] = useState<"asc" | "desc">("asc");
-  const [departmentFilter, setDepartmentFilter] = useState("");
-  const [municipalityFilter, setMunicipalityFilter] = useState("");
+  const [departmentFilter, setDepartmentFilter] = useState<string>("");
+  const [municipalityFilter, setMunicipalityFilter] = useState<string>("");
 
   const data = useMemo(() => {
     let filteredData = initialData;
@@ -52,17 +50,6 @@ const Home = () => {
     if (municipalityFilter) {
       filteredData = filteredData.filter(
         (item) => item.MUNICIPIO === municipalityFilter
-      );
-    }
-
-    if (search) {
-      filteredData = filteredData.filter((item) =>
-        columns.some((column) =>
-          item[column.key as keyof VaccinationPoint]
-            .toString()
-            .toLowerCase()
-            .includes(search.toLowerCase())
-        )
       );
     }
 
@@ -94,10 +81,21 @@ const Home = () => {
     }, []);
 
     return uniqueData;
-  }, [search, sortColumn, sortDirection, departmentFilter, municipalityFilter]);
+  }, [sortColumn, sortDirection, departmentFilter, municipalityFilter]);
 
-  const uniqueDepartments = [...new Set(initialData.map((item) => item.DEPARTAMENTO))];
-  const uniqueMunicipalities = [...new Set(initialData.map((item) => item.MUNICIPIO))];
+  const uniqueDepartments = useMemo(() => {
+    return [...new Set(initialData.map((item) => item.DEPARTAMENTO))];
+  }, []);
+
+  const uniqueMunicipalities = useMemo(() => {
+    if (departmentFilter) {
+      return [...new Set(initialData
+          .filter(item => item.DEPARTAMENTO === departmentFilter)
+          .map(item => item.MUNICIPIO))];
+    }
+    return [...new Set(initialData.map((item) => item.MUNICIPIO))];
+  }, [departmentFilter]);
+
 
   const handleSort = (columnKey: string) => {
     if (sortColumn === columnKey) {
@@ -108,18 +106,19 @@ const Home = () => {
     }
   };
 
+  const handleDepartmentChange = (newDepartment: string) => {
+    setDepartmentFilter(newDepartment);
+    setMunicipalityFilter(""); // Clear municipality filter when department changes
+  };
+
+  const handleMunicipalityChange = (newMunicipality: string) => {
+    setMunicipalityFilter(newMunicipality);
+  };
+
   return (
     <div className="container mx-auto p-4">
-      <Input
-        type="text"
-        placeholder="Búsqueda..."
-        value={search}
-        onChange={(e) => setSearch(e.target.value)}
-        className="mb-4 w-full md:w-1/2 custom-input-style"
-      />
-
       <div className="flex flex-wrap gap-4 mb-4">
-        <Select onValueChange={setDepartmentFilter}>
+        <Select onValueChange={handleDepartmentChange}>
           <SelectTrigger className="w-[180px] custom-select-style">
             <SelectValue placeholder="Departamento" />
           </SelectTrigger>
@@ -132,7 +131,7 @@ const Home = () => {
           </SelectContent>
         </Select>
 
-        <Select onValueChange={setMunicipalityFilter}>
+        <Select onValueChange={handleMunicipalityChange}>
           <SelectTrigger className="w-[180px] custom-select-style">
             <SelectValue placeholder="Municipio" />
           </SelectTrigger>
@@ -161,7 +160,7 @@ const Home = () => {
           </TableRow>
         </TableHeader>
         <TableBody>
-          {data.slice(0,5).map((item) => (
+          {data.map((item) => (
             <TableRow key={`${item["NOMBRE PUNTO DE VACUNACION"]}-${item.TELEFONO}`}>
               <TableCell>{item.DEPARTAMENTO}</TableCell>
               <TableCell>{item.MUNICIPIO}</TableCell>
