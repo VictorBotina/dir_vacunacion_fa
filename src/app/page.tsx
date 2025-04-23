@@ -81,7 +81,11 @@ const Home = () => {
     const uniqueData = filteredData.reduce((acc: VaccinationPoint[], current) => {
       const isDuplicate = acc.some(item =>
         item["NOMBRE PUNTO DE VACUNACION"] === current["NOMBRE PUNTO DE VACUNACION"] &&
-        item.TELEFONO === current.TELEFONO
+        item.TELEFONO === current.TELEFONO &&
+        item.DEPARTAMENTO === current.DEPARTAMENTO &&
+        item.MUNICIPIO === current.MUNICIPIO &&
+        item.DIRECCIÓN === current.DIRECCIÓN &&
+        item.HORARIO === current.HORARIO
       );
       if (!isDuplicate) {
         acc.push(current);
