@@ -79,6 +79,15 @@ const Home = () => {
   const uniqueDepartments = [...new Set(initialData.map((item) => item.DEPARTAMENTO))];
   const uniqueMunicipalities = [...new Set(initialData.map((item) => item.MUNICIPIO))];
 
+  const handleSort = (columnKey: string) => {
+    if (sortColumn === columnKey) {
+      setSortDirection(sortDirection === "asc" ? "desc" : "asc");
+    } else {
+      setSortColumn(columnKey);
+      setSortDirection("asc");
+    }
+  };
+
   return (
     <div className="container mx-auto p-4">
       <Input
@@ -149,4 +158,3 @@ const Home = () => {
 };
 
 export default Home;
-
