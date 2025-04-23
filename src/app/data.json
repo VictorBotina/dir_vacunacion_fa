@@ -1,0 +1,163 @@
+
+[
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Pasto",
+    "NOMBRE PUNTO DE VACUNACION": "Hospital San Pedro",
+    "DIRECCIÓN": "Calle 18 # 25-45",
+    "TELEFONO": "7298345",
+    "HORARIO": "Lunes a Viernes de 8am a 5pm"
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Ipiales",
+    "NOMBRE PUNTO DE VACUNACION": "Centro de Salud Ipiales",
+    "DIRECCIÓN": "Carrera 6 # 12-34",
+    "TELEFONO": "7265432",
+    "HORARIO": "Lunes a Sábado de 7am a 6pm"
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Tumaco",
+    "NOMBRE PUNTO DE VACUNACION": "Hospital Divino Niño",
+    "DIRECCIÓN": "Avenida Colon # 3-15",
+    "TELEFONO": "7287654",
+    "HORARIO": "Lunes a Domingo de 6am a 8pm"
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "La Unión",
+    "NOMBRE PUNTO DE VACUNACION": "Puesto de Salud La Unión",
+    "DIRECCIÓN": "Calle Central # 5-20",
+    "TELEFONO": "7243219",
+    "HORARIO": "Lunes a Viernes de 8am a 4pm"
+  },
+  {
+    "DEPARTAMENTO": "Nariño",
+    "MUNICIPIO": "Samaniego",
+    "NOMBRE PUNTO DE VACUNACION": "Hospital Civil Samaniego",
+    "DIRECCIÓN": "Carrera 3 # 8-10",
+    "TELEFONO": "7254321",
+    "HORARIO": "Lunes a Sábado de 7am a 7pm"
+  },
+  {
+    "DEPARTAMENTO": "Cauca",
+    "MUNICIPIO": "Popayán",
+    "NOMBRE PUNTO DE VACUNACION": "Hospital Universitario San José",
+    "DIRECCIÓN": "Calle 4 # 10-50",
+    "TELEFONO": "8245678",
+    "HORARIO": "Lunes a Viernes de 7am a 5pm"
+  },
+  {
+    "DEPARTAMENTO": "Cauca",
+    "MUNICIPIO": "Santander de Quilichao",
+    "NOMBRE PUNTO DE VACUNACION": "Centro de Salud Santander",
+    "DIRECCIÓN": "Carrera 15 # 20-30",
+    "TELEFONO": "8287654",
+    "HORARIO": "Lunes a Sábado de 6am a 6pm"
+  },
+  {
+    "DEPARTAMENTO": "Cauca",
+    "MUNICIPIO": "Puerto Tejada",
+    "NOMBRE PUNTO DE VACUNACION": "Hospital de Puerto Tejada",
+    "DIRECCIÓN": "Avenida Principal # 1-20",
+    "TELEFONO": "8298765",
+    "HORARIO": "Lunes a Domingo de 8am a 8pm"
+  },
+  {
+    "DEPARTAMENTO": "Cauca",
+    "MUNICIPIO": "Corinto",
+    "NOMBRE PUNTO DE VACUNACION": "Puesto de Salud Corinto",
+    "DIRECCIÓN": "Calle del Comercio # 2-15",
+    "TELEFONO": "8234567",
+    "HORARIO": "Lunes a Viernes de 9am a 4pm"
+  },
+  {
+    "DEPARTAMENTO": "Cauca",
+    "MUNICIPIO": "Silvia",
+    "NOMBRE PUNTO DE VACUNACION": "Hospital Indígena Silvia",
+    "DIRECCIÓN": "Carrera 5 # 5-55",
+    "TELEFONO": "8265432",
+    "HORARIO": "Lunes a Sábado de 7am a 5pm"
+  },
+  {
+    "DEPARTAMENTO": "Putumayo",
+    "MUNICIPIO": "Mocoa",
+    "NOMBRE PUNTO DE VACUNACION": "Hospital José María Hernández",
+    "DIRECCIÓN": "Calle 12 # 8-25",
+    "TELEFONO": "6456789",
+    "HORARIO": "Lunes a Viernes de 8am a 6pm"
+  },
+  {
+    "DEPARTAMENTO": "Putumayo",
+    "MUNICIPIO": "Puerto Asís",
+    "NOMBRE PUNTO DE VACUNACION": "Centro de Salud Puerto Asís",
+    "DIRECCIÓN": "Carrera 9 # 15-10",
+    "TELEFONO": "6487654",
+    "HORARIO": "Lunes a Sábado de 7am a 7pm"
+  },
+  {
+    "DEPARTAMENTO": "Putumayo",
+    "MUNICIPIO": "Orito",
+    "NOMBRE PUNTO DE VACUNACION": "Hospital de Orito",
+    "DIRECCIÓN": "Avenida Libertador # 2-80",
+    "TELEFONO": "6498765",
+    "HORARIO": "Lunes a Domingo de 6am a 9pm"
+  },
+  {
+    "DEPARTAMENTO": "Putumayo",
+    "MUNICIPIO": "Villa Garzón",
+    "NOMBRE PUNTO DE VACUNACION": "Puesto de Salud Villa Garzón",
+    "DIRECCIÓN": "Calle 3 # 4-40",
+    "TELEFONO": "6434567",
+    "HORARIO": "Lunes a Viernes de 9am a 5pm"
+  },
+  {
+    "DEPARTAMENTO": "Putumayo",
+    "MUNICIPIO": "Sibundoy",
+    "NOMBRE PUNTO DE VACUNACION": "Hospital Regional Sibundoy",
+    "DIRECCIÓN": "Carrera 7 # 6-12",
+    "TELEFONO": "6465432",
+    "HORARIO": "Lunes a Sábado de 8am a 6pm"
+  },
+  {
+    "DEPARTAMENTO": "Valle del Cauca",
+    "MUNICIPIO": "Cali",
+    "NOMBRE PUNTO DE VACUNACION": "Hospital Universitario del Valle",
+    "DIRECCIÓN": "Calle 5 # 36-08",
+    "TELEFONO": "5543210",
+    "HORARIO": "Lunes a Viernes de 7am a 6pm"
+  },
+  {
+    "DEPARTAMENTO": "Valle del Cauca",
+    "MUNICIPIO": "Palmira",
+    "NOMBRE PUNTO DE VACUNACION": "Clínica Palma Real",
+    "DIRECCIÓN": "Carrera 31 # 42-21",
+    "TELEFONO": "5576543",
+    "HORARIO": "Lunes a Sábado de 6am a 8pm"
+  },
+  {
+    "DEPARTAMENTO": "Valle del Cauca",
+    "MUNICIPIO": "Buga",
+    "NOMBRE PUNTO DE VACUNACION": "Hospital San José Buga",
+    "DIRECCIÓN": "Calle 7 # 14-30",
+    "TELEFONO": "5587654",
+    "HORARIO": "Lunes a Domingo de 8am a 7pm"
+  },
+  {
+    "DEPARTAMENTO": "Valle del Cauca",
+    "MUNICIPIO": "Tuluá",
+    "NOMBRE PUNTO DE VACUNACION": "Clínica María Ángel",
+    "DIRECCIÓN": "Carrera 25 # 28-05",
+    "TELEFONO": "5598765",
+    "HORARIO": "Lunes a Viernes de 9am a 5pm"
+  },
+  {
+    "DEPARTAMENTO": "Valle del Cauca",
+    "MUNICIPIO": "Cartago",
+    "NOMBRE PUNTO DE VACUNACION": "Hospital San Juan de Dios",
+    "DIRECCIÓN": "Calle 13 # 5-48",
+    "TELEFONO": "5534567",
+    "HORARIO": "Lunes a Sábado de 7am a 6pm"
+  }
+]
