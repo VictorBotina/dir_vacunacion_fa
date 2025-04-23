@@ -95,12 +95,12 @@ const Home = () => {
         placeholder="Search vaccination points..."
         value={search}
         onChange={(e) => setSearch(e.target.value)}
-        className="mb-4 w-full md:w-1/2"
+        className="mb-4 w-full md:w-1/2 custom-input-style"
       />
 
       <div className="flex flex-wrap gap-4 mb-4">
         <Select onValueChange={setDepartmentFilter}>
-          <SelectTrigger className="w-[180px]">
+          <SelectTrigger className="w-[180px] custom-select-style">
             <SelectValue placeholder="Filter by Department" />
           </SelectTrigger>
           <SelectContent className="bg-[var(--dropdown-background)]">
@@ -113,7 +113,7 @@ const Home = () => {
         </Select>
 
         <Select onValueChange={setMunicipalityFilter}>
-          <SelectTrigger className="w-[180px]">
+          <SelectTrigger className="w-[180px] custom-select-style">
             <SelectValue placeholder="Filter by Municipality" />
           </SelectTrigger>
           <SelectContent className="bg-[var(--dropdown-background)]">
