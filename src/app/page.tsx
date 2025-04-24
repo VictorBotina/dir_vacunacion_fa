@@ -88,7 +88,7 @@ const Home = () => {
       return acc;
     }, []);
 
-    return uniqueData.slice(0, 5);
+    return uniqueData;
   }, [departmentFilter, municipalityFilter]);
 
   const uniqueDepartments = useMemo(() => {
