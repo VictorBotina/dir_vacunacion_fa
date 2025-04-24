@@ -363,7 +363,7 @@
     "Pasto": [
       {
         "NOMBRE PUNTO DE VACUNACION": "Terminal Mixto Potrerillo",
-        "DIRECCIÓN": "Pasto Salud Ese",
+        "DIRECCIÓN": "ESE Pasto Salud",
         "TELEFONO": "3175896932 - 31555133334",
         "HORARIO": "Lunes, Martes y Sábado: 8:00 a.m. a 3:00 p.m."
   },
@@ -376,7 +376,6 @@
   {
         "NOMBRE PUNTO DE VACUNACION": "Terminal Principal",
         "DIRECCIÓN": "Cardio Quirúrgica",
-
         "TELEFONO": "3175896932 - 31555133334",
         "HORARIO": "Miércoles: 8:00 a.m. a 1:00 p.m."
   }
