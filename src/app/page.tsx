@@ -156,7 +156,7 @@ const Home = () => {
         </TableHeader>
         <TableBody>
           {data.map((item) => (
-            <TableRow key={`${item["NOMBRE PUNTO DE VACUNACION"]}-${item.TELEFONO}`}>
+            <TableRow key={`${item["NOMBRE PUNTO DE VACUNACION"]}-${item.TELEFONO}-${item.DEPARTAMENTO}-${item.MUNICIPIO}`}>
               <TableCell>{item.DEPARTAMENTO}</TableCell>
               <TableCell>{item.MUNICIPIO}</TableCell>
               <TableCell>{item["NOMBRE PUNTO DE VACUNACION"]}</TableCell>
