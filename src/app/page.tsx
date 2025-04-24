@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useMemo } from "react";
+import React, {useState, useMemo} from "react";
 import {
   Table,
   TableHeader,
@@ -9,72 +9,74 @@ import {
   TableHead,
   TableCell,
 } from "@/components/ui/table";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import data from './data.json';
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import data from "./data.json";
 
 interface VaccinationPoint {
-  DEPARTAMENTO: string;
-  MUNICIPIO: string;
-  'NOMBRE PUNTO DE VACUNACION': string;
+  "NOMBRE PUNTO DE VACUNACION": string;
   DIRECCIÓN: string;
   TELEFONO: string;
   HORARIO: string;
-  id_municipio: string;
+  DEPARTAMENTO: string;
+  MUNICIPIO: string;
 }
 
-const initialData: VaccinationPoint[] = data;
+interface DepartmentData {
+  [municipality: string]: VaccinationPoint[];
+}
+
+interface Data {
+  [department: string]: DepartmentData;
+}
+
+const initialData: Data = data;
 
 const columns = [
-  { key: "DEPARTAMENTO", label: "Departamento" },
-  { key: "MUNICIPIO", label: "Municipio" },
-  { key: "NOMBRE PUNTO DE VACUNACION", label: "Punto de Vacunación" },
-  { key: "DIRECCIÓN", label: "Dirección" },
-  { key: "TELEFONO", label: "Telefono" },
-  { key: "HORARIO", label: "Horario" },
+  {key: "DEPARTAMENTO", label: "Departamento"},
+  {key: "MUNICIPIO", label: "Municipio"},
+  {key: "NOMBRE PUNTO DE VACUNACION", label: "Punto de Vacunación"},
+  {key: "DIRECCIÓN", label: "Dirección"},
+  {key: "TELEFONO", label: "Telefono"},
+  {key: "HORARIO", label: "Horario"},
 ];
 
 const Home = () => {
-  const [sortColumn, setSortColumn] = useState<string | null>(null);
-  const [sortDirection, setSortDirection] = useState<"asc" | "desc">("asc");
   const [departmentFilter, setDepartmentFilter] = useState<string>("");
   const [municipalityFilter, setMunicipalityFilter] = useState<string>("");
 
   const data = useMemo(() => {
-    let filteredData = initialData;
+    let filteredData: VaccinationPoint[] = [];
 
-    if (departmentFilter) {
-      filteredData = filteredData.filter(
-        (item) => item.DEPARTAMENTO === departmentFilter
-      );
+    if (departmentFilter && initialData[departmentFilter]) {
+      const departmentData = initialData[departmentFilter];
+
+      if (municipalityFilter && departmentData[municipalityFilter]) {
+        filteredData = departmentData[municipalityFilter];
+      } else {
+        Object.values(departmentData).forEach(
+          municipalityPoints => {
+            filteredData = filteredData.concat(municipalityPoints);
+          }
+        );
+      }
+    } else {
+      filteredData = [];
     }
 
-    if (municipalityFilter) {
-      filteredData = filteredData.filter(
-        (item) => item.MUNICIPIO === municipalityFilter
-      );
-    }
-
-    if (sortColumn) {
-      filteredData = [...filteredData].sort((a, b) => {
-        const aValue = a[sortColumn as keyof VaccinationPoint];
-        const bValue = b[sortColumn as keyof VaccinationPoint];
-
-        if (aValue < bValue) return sortDirection === "asc" ? -1 : 1;
-        if (aValue > bValue) return sortDirection === "asc" ? 1 : -1;
-        return 0;
-      });
-    }
-
-    // Remove duplicate entries based on "NOMBRE PUNTO DE VACUNACION" and TELEFONO
     const uniqueData = filteredData.reduce((acc: VaccinationPoint[], current) => {
       const isDuplicate = acc.some(item =>
         item["NOMBRE PUNTO DE VACUNACION"] === current["NOMBRE PUNTO DE VACUNACION"] &&
         item.TELEFONO === current.TELEFONO &&
-        item.DEPARTAMENTO === current.DEPARTAMENTO &&
-        item.MUNICIPIO === current.MUNICIPIO &&
         item.DIRECCIÓN === current.DIRECCIÓN &&
         item.HORARIO === current.HORARIO &&
-        item.id_municipio === current.id_municipio
+        item.DEPARTAMENTO === current.DEPARTAMENTO &&
+        item.MUNICIPIO === current.MUNICIPIO
       );
       if (!isDuplicate) {
         acc.push(current);
@@ -83,34 +85,22 @@ const Home = () => {
     }, []);
 
     return uniqueData.slice(0, 5);
-  }, [sortColumn, sortDirection, departmentFilter, municipalityFilter]);
+  }, [departmentFilter, municipalityFilter]);
 
   const uniqueDepartments = useMemo(() => {
-    return [...new Set(initialData.map((item) => item.DEPARTAMENTO))];
+    return Object.keys(initialData);
   }, []);
 
   const uniqueMunicipalities = useMemo(() => {
-    if (departmentFilter) {
-      return [...new Set(initialData
-          .filter(item => item.DEPARTAMENTO === departmentFilter)
-          .map(item => item.MUNICIPIO))];
+    if (departmentFilter && initialData[departmentFilter]) {
+      return Object.keys(initialData[departmentFilter]);
     }
-    return [...new Set(initialData.map((item) => item.MUNICIPIO))];
+    return [];
   }, [departmentFilter]);
-
-
-  const handleSort = (columnKey: string) => {
-    if (sortColumn === columnKey) {
-      setSortDirection(sortDirection === "asc" ? "desc" : "asc");
-    } else {
-      setSortColumn(columnKey);
-      setSortDirection("asc");
-    }
-  };
 
   const handleDepartmentChange = (newDepartment: string) => {
     setDepartmentFilter(newDepartment);
-    setMunicipalityFilter(""); // Clear municipality filter when department changes
+    setMunicipalityFilter("");
   };
 
   const handleMunicipalityChange = (newMunicipality: string) => {
@@ -153,8 +143,7 @@ const Home = () => {
             {columns.map((column) => (
               <TableHead
                 key={column.key}
-                onClick={() => handleSort(column.key)}
-                className="cursor-pointer table-header-solid"
+                className="table-header-solid"
               >
                 {column.label}
               </TableHead>
