@@ -57,16 +57,20 @@ const Home = () => {
       const departmentData = initialData[departmentFilter];
 
       if (municipalityFilter && departmentData[municipalityFilter]) {
-        filteredData = departmentData[municipalityFilter];
+        filteredData = departmentData[municipalityFilter].map(item => ({
+          ...item,
+          DEPARTAMENTO: departmentFilter,
+          MUNICIPIO: municipalityFilter
+        }));
       } else {
-        Object.values(departmentData).forEach(
-          municipalityPoints => {
-            filteredData = filteredData.concat(municipalityPoints);
-          }
-        );
+        Object.entries(departmentData).forEach(([municipality, municipalityPoints]) => {
+          filteredData = filteredData.concat(municipalityPoints.map(item => ({
+            ...item,
+            DEPARTAMENTO: departmentFilter,
+            MUNICIPIO: municipality
+          })));
+        });
       }
-    } else {
-      filteredData = [];
     }
 
     const uniqueData = filteredData.reduce((acc: VaccinationPoint[], current) => {
