@@ -744,10 +744,69 @@
         "TELEFONO": "3154563351",
         "HORARIO": "Lunes a viernes: 8:00 a.m. a 4:00 p.m."
       }
-    ]
-  
-  },
-  "Cauca":{
+    ],
+    "Cali": [
+      {
+        "NOMBRE PUNTO DE VACUNACION": "Colmédicos Cali Sede Versalles",
+        "DIRECCIÓN": "Calle 20 Norte No. 5N-07",
+        "TELEFONO": "N/A",
+        "HORARIO": "Lunes a viernes: 8:00 a.m. a 4:00 p.m."
+      },
+      {
+        "NOMBRE PUNTO DE VACUNACION": "Unidad de Salud Ocupacional SAS",
+        "DIRECCIÓN": "Calle 23B Norte No. 3N-52",
+        "TELEFONO": "N/A",
+        "HORARIO": "Lunes a viernes: 8:00 a.m. a 4:00 p.m."
+      },
+      {
+        "NOMBRE PUNTO DE VACUNACION": "Unidad de Salud Ocupacional - Sede Cali Sur",
+        "DIRECCIÓN": "Calle 5B4 # 38-67 / Calle 23B Norte No. 3N-52",
+        "TELEFONO": "N/A",
+        "HORARIO": "Lunes a viernes: 8:00 a.m. a 4:00 p.m."
+      },
+      {
+        "NOMBRE PUNTO DE VACUNACION": "Salud Ocupacional de los Andes Ltda",
+        "DIRECCIÓN": "Calle 26N # 5AN-37/39, Piso 1",
+        "TELEFONO": "N/A",
+        "HORARIO": "Lunes a viernes: 8:00 a.m. a 4:00 p.m."
+      },
+      {
+        "NOMBRE PUNTO DE VACUNACION": "Javesalud Cali",
+        "DIRECCIÓN": "Cra. 38 Bis # 5B2-51",
+        "TELEFONO": "N/A",
+        "HORARIO": "Lunes a viernes: 8:00 a.m. a 4:00 p.m."
+      },
+      {
+        "NOMBRE PUNTO DE VACUNACION": "IPS Universidad Santiago de Cali",
+        "DIRECCIÓN": "Calle 5 No. 62-00, Bloque 5, Piso 2",
+        "TELEFONO": "N/A",
+        "HORARIO": "Lunes a viernes: 8:00 a.m. a 4:00 p.m."
+      },
+      {
+        "NOMBRE PUNTO DE VACUNACION": "IPS Cruz Roja Valle",
+        "DIRECCIÓN": "Cra. 38 Bis # 5-91",
+        "TELEFONO": "N/A",
+        "HORARIO": "Lunes a viernes: 8:00 a.m. a 4:00 p.m."
+      },
+      {
+        "NOMBRE PUNTO DE VACUNACION": "IPS Profamilia Tequendama",
+        "DIRECCIÓN": "Calle 7 No. 41-34",
+        "TELEFONO": "N/A",
+        "HORARIO": "Lunes a viernes: 8:00 a.m. a 4:00 p.m."
+      },
+      {
+        "NOMBRE PUNTO DE VACUNACION": "Colmédicos Cali Sede CC Carrera",
+        "DIRECCIÓN": "Calle 52N # 1B-160, Local 201 - 207",
+        "TELEFONO": "N/A",
+        "HORARIO": "Lunes a viernes: 8:00 a.m. a 4:00 p.m."
+      },
+      {
+        "NOMBRE PUNTO DE VACUNACION": "IPS CEIP Clínica VIH Pediátrico",
+        "DIRECCIÓN": "Calle 5B5 # 37 Bis - 20",
+        "TELEFONO": "N/A",
+        "HORARIO": "Lunes a viernes: 8:00 a.m. a 4:00 p.m."
+      }
+    ],
     "Alcalá": [
       {
         "NOMBRE PUNTO DE VACUNACION": "E.S.E. Hospital San Vicente de Paul",
@@ -1318,7 +1377,6 @@
         "HORARIO": "Lunes a Viernes: 7:00 a.m. - 5:00 p.m."
       }
     ],
-    
     "Palmira": [
       {
         "NOMBRE PUNTO DE VACUNACION": "IPS COMFANDI PALMIRA",
@@ -1620,7 +1678,9 @@
         "TELEFONO": "2220046 - 2220043",
         "HORARIO": "Lunes a Sábado: 07:00 a.m. - 12:00 m / 01:00 p.m. - 05:00 p.m."
       }
-    ],
+    ]
+  },
+  "Cauca":{
     "Popayán": [
       {
         "NOMBRE PUNTO DE VACUNACION": "EMPRESA SOCIAL DEL ESTADO POPAYÁN E.S.E UNIDAD DE ATENCIÓN EN SALUD TORIBIO MAYA",
@@ -1987,7 +2047,7 @@
         "HORARIO": "Lunes a Viernes: 8:00 a.m. a 4:00 p.m."
       }
     ]
+
   }
-  
   }
   
